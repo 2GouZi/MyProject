@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MeSettingOursViewController">
+            <connections>
+                <outlet property="emailLabel" destination="S7n-WW-8HV" id="cc8-vb-ByA"/>
+                <outlet property="iconImageView" destination="yBL-XR-P86" id="oaD-oP-dg9"/>
+                <outlet property="phoneLabel" destination="anW-CH-V41" id="kGk-Ca-dXq"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yBL-XR-P86">
+                    <rect key="frame" x="127" y="114" width="120" height="120"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="120" id="EaD-co-Jh5"/>
+                        <constraint firstAttribute="width" constant="120" id="bjo-zO-v3W"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="anW-CH-V41">
+                    <rect key="frame" x="20" y="294.5" width="335" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S7n-WW-8HV">
+                    <rect key="frame" x="20" y="254" width="335" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="S7n-WW-8HV" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="3ap-s7-88h"/>
+                <constraint firstItem="S7n-WW-8HV" firstAttribute="top" secondItem="yBL-XR-P86" secondAttribute="bottom" constant="20" id="8QX-OC-R7Y"/>
+                <constraint firstItem="anW-CH-V41" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="Eb1-FF-e0B"/>
+                <constraint firstItem="yBL-XR-P86" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="JSK-BA-FeE"/>
+                <constraint firstAttribute="trailing" secondItem="S7n-WW-8HV" secondAttribute="trailing" constant="20" id="Q09-pP-Do3"/>
+                <constraint firstAttribute="trailing" secondItem="anW-CH-V41" secondAttribute="trailing" constant="20" id="cBw-tG-H06"/>
+                <constraint firstItem="anW-CH-V41" firstAttribute="top" secondItem="S7n-WW-8HV" secondAttribute="bottom" constant="20" id="jRr-RC-MxV"/>
+                <constraint firstItem="yBL-XR-P86" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="114" id="qYg-ha-d5f"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="387.5" y="321.5"/>
+        </view>
+    </objects>
+</document>

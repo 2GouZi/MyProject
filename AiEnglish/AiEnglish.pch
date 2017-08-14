@@ -1,0 +1,33 @@
+//
+//  LoL.pch
+//  kangLOL
+//
+//  Created by kangGG on 16/7/6.
+//  Copyright © 2016年 Kong....... All rights reserved.
+//
+
+#import<Availability.h>
+
+#ifndef __IPONE_7_0
+#warning "This project use feature only aviailable on SDK 7.0 and latter"
+
+#endif
+
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+
+
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#define kStatus      @"status"
+#define kName        @"namae"
+#define kHeaderImage @"headerImage"
+#define kTitle       @"title"
+#define kStudyImage  @"image"
+#define kSenceid     @"senceid"
+#define kTitleName   @"kTitleName"
+#endif
